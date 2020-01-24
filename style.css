@@ -1,6 +1,49 @@
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
   text-align: center;
 }
+
+.happy-city {
+  /* background-image: url("img/simcity.jpg"); */
+  background: url(img/simcity.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.flat-city {
+  /* background-image: url("img/simcity.jpg"); */
+  background: url(img/explosion.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.game-space {
+  width: 200px;
+  display: inline-block;
+  /* margin: 0 auto; */
+  background: #000;
+}
+
+.countdown {
+  font-size: 36px;
+}
+
+.countdown-saved {
+  color: #76ec76;
+}
+
+.countdown-panic {
+  color: #f00;
+}
+
+.reset {
+  width: 90%;
+  margin: 10px 0;
+  padding: 2px;
+}
+

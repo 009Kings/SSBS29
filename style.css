@@ -27,6 +27,7 @@ html, body {
   display: inline-block;
   /* margin: 0 auto; */
   background: #000;
+  margin-top: 100px;
 }
 
 .countdown {

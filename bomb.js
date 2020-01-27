@@ -56,15 +56,17 @@ let gameInit = function() {
   document.querySelector('body').classList.add('happy-city');
 
   // set wires to be cut (includes pushing to wiresToCut)
+  // TODO: check for no-win scenarios and re-run wire loop.
   for (let wire in wires) {
     let rand = Math.random();
     if (rand > 0.5) {
       wiresToCut.push(wire)
     }
   }
+
   console.log(wiresToCut);
-  // start countdown
-  // play siren
+  // TODO start countdown
+  // TODO play siren
 };
 
 let wireClickHandler = function(e) {
